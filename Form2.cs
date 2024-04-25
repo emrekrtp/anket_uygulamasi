@@ -12,7 +12,7 @@ namespace anket_uygulamasi
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        public Form2(string seciliRadioButton)
         {
             InitializeComponent();
         }
