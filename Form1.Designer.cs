@@ -104,6 +104,11 @@
             this.radioButton53 = new System.Windows.Forms.RadioButton();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -122,10 +127,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(17, 60);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(169, 20);
+            this.radioButton1.Size = new System.Drawing.Size(35, 20);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Tamamen Katılmıyorum";
+            this.radioButton1.Text = "1";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // radioButton2
@@ -133,10 +138,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(204, 60);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(104, 20);
+            this.radioButton2.Size = new System.Drawing.Size(35, 20);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Katılmıyorum";
+            this.radioButton2.Text = "2";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
@@ -144,10 +149,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(332, 60);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(91, 20);
+            this.radioButton3.Size = new System.Drawing.Size(35, 20);
             this.radioButton3.TabIndex = 2;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Fikrim Yok";
+            this.radioButton3.Text = "3";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -155,21 +160,22 @@
             this.radioButton4.AutoSize = true;
             this.radioButton4.Location = new System.Drawing.Point(462, 60);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(93, 20);
+            this.radioButton4.Size = new System.Drawing.Size(35, 20);
             this.radioButton4.TabIndex = 3;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Katılıyorum";
+            this.radioButton4.Text = "4";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
             this.radioButton5.Location = new System.Drawing.Point(593, 60);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(158, 20);
+            this.radioButton5.Size = new System.Drawing.Size(35, 20);
             this.radioButton5.TabIndex = 4;
             this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Tamamen Katılıyorum";
+            this.radioButton5.Text = "5";
             this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -213,10 +219,10 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Location = new System.Drawing.Point(17, 60);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(169, 20);
+            this.radioButton6.Size = new System.Drawing.Size(35, 20);
             this.radioButton6.TabIndex = 0;
             this.radioButton6.TabStop = true;
-            this.radioButton6.Text = "Tamamen Katılmıyorum";
+            this.radioButton6.Text = "1";
             this.radioButton6.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -233,10 +239,10 @@
             this.radioButton7.AutoSize = true;
             this.radioButton7.Location = new System.Drawing.Point(204, 60);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(104, 20);
+            this.radioButton7.Size = new System.Drawing.Size(35, 20);
             this.radioButton7.TabIndex = 1;
             this.radioButton7.TabStop = true;
-            this.radioButton7.Text = "Katılmıyorum";
+            this.radioButton7.Text = "2";
             this.radioButton7.UseVisualStyleBackColor = true;
             // 
             // radioButton8
@@ -244,10 +250,10 @@
             this.radioButton8.AutoSize = true;
             this.radioButton8.Location = new System.Drawing.Point(593, 60);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(158, 20);
+            this.radioButton8.Size = new System.Drawing.Size(35, 20);
             this.radioButton8.TabIndex = 4;
             this.radioButton8.TabStop = true;
-            this.radioButton8.Text = "Tamamen Katılıyorum";
+            this.radioButton8.Text = "5";
             this.radioButton8.UseVisualStyleBackColor = true;
             // 
             // radioButton9
@@ -255,10 +261,10 @@
             this.radioButton9.AutoSize = true;
             this.radioButton9.Location = new System.Drawing.Point(332, 60);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(91, 20);
+            this.radioButton9.Size = new System.Drawing.Size(35, 20);
             this.radioButton9.TabIndex = 2;
             this.radioButton9.TabStop = true;
-            this.radioButton9.Text = "Fikrim Yok";
+            this.radioButton9.Text = "3";
             this.radioButton9.UseVisualStyleBackColor = true;
             // 
             // radioButton10
@@ -266,10 +272,10 @@
             this.radioButton10.AutoSize = true;
             this.radioButton10.Location = new System.Drawing.Point(462, 60);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(93, 20);
+            this.radioButton10.Size = new System.Drawing.Size(35, 20);
             this.radioButton10.TabIndex = 3;
             this.radioButton10.TabStop = true;
-            this.radioButton10.Text = "Katılıyorum";
+            this.radioButton10.Text = "4";
             this.radioButton10.UseVisualStyleBackColor = true;
             // 
             // panel3
@@ -290,10 +296,10 @@
             this.radioButton11.AutoSize = true;
             this.radioButton11.Location = new System.Drawing.Point(17, 60);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(169, 20);
+            this.radioButton11.Size = new System.Drawing.Size(35, 20);
             this.radioButton11.TabIndex = 0;
             this.radioButton11.TabStop = true;
-            this.radioButton11.Text = "Tamamen Katılmıyorum";
+            this.radioButton11.Text = "1";
             this.radioButton11.UseVisualStyleBackColor = true;
             // 
             // label3
@@ -310,10 +316,10 @@
             this.radioButton12.AutoSize = true;
             this.radioButton12.Location = new System.Drawing.Point(204, 60);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(104, 20);
+            this.radioButton12.Size = new System.Drawing.Size(35, 20);
             this.radioButton12.TabIndex = 1;
             this.radioButton12.TabStop = true;
-            this.radioButton12.Text = "Katılmıyorum";
+            this.radioButton12.Text = "2";
             this.radioButton12.UseVisualStyleBackColor = true;
             // 
             // radioButton13
@@ -321,21 +327,22 @@
             this.radioButton13.AutoSize = true;
             this.radioButton13.Location = new System.Drawing.Point(593, 60);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(158, 20);
+            this.radioButton13.Size = new System.Drawing.Size(35, 20);
             this.radioButton13.TabIndex = 4;
             this.radioButton13.TabStop = true;
-            this.radioButton13.Text = "Tamamen Katılıyorum";
+            this.radioButton13.Text = "5";
             this.radioButton13.UseVisualStyleBackColor = true;
+            this.radioButton13.CheckedChanged += new System.EventHandler(this.radioButton13_CheckedChanged);
             // 
             // radioButton14
             // 
             this.radioButton14.AutoSize = true;
             this.radioButton14.Location = new System.Drawing.Point(332, 60);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(91, 20);
+            this.radioButton14.Size = new System.Drawing.Size(35, 20);
             this.radioButton14.TabIndex = 2;
             this.radioButton14.TabStop = true;
-            this.radioButton14.Text = "Fikrim Yok";
+            this.radioButton14.Text = "3";
             this.radioButton14.UseVisualStyleBackColor = true;
             // 
             // radioButton15
@@ -343,10 +350,10 @@
             this.radioButton15.AutoSize = true;
             this.radioButton15.Location = new System.Drawing.Point(462, 60);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(93, 20);
+            this.radioButton15.Size = new System.Drawing.Size(35, 20);
             this.radioButton15.TabIndex = 3;
             this.radioButton15.TabStop = true;
-            this.radioButton15.Text = "Katılıyorum";
+            this.radioButton15.Text = "4";
             this.radioButton15.UseVisualStyleBackColor = true;
             // 
             // panel4
@@ -367,10 +374,10 @@
             this.radioButton16.AutoSize = true;
             this.radioButton16.Location = new System.Drawing.Point(17, 60);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(169, 20);
+            this.radioButton16.Size = new System.Drawing.Size(35, 20);
             this.radioButton16.TabIndex = 0;
             this.radioButton16.TabStop = true;
-            this.radioButton16.Text = "Tamamen Katılmıyorum";
+            this.radioButton16.Text = "1";
             this.radioButton16.UseVisualStyleBackColor = true;
             // 
             // label4
@@ -388,10 +395,10 @@
             this.radioButton17.AutoSize = true;
             this.radioButton17.Location = new System.Drawing.Point(204, 60);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(104, 20);
+            this.radioButton17.Size = new System.Drawing.Size(35, 20);
             this.radioButton17.TabIndex = 1;
             this.radioButton17.TabStop = true;
-            this.radioButton17.Text = "Katılmıyorum";
+            this.radioButton17.Text = "2";
             this.radioButton17.UseVisualStyleBackColor = true;
             // 
             // radioButton18
@@ -399,10 +406,10 @@
             this.radioButton18.AutoSize = true;
             this.radioButton18.Location = new System.Drawing.Point(593, 60);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(158, 20);
+            this.radioButton18.Size = new System.Drawing.Size(35, 20);
             this.radioButton18.TabIndex = 4;
             this.radioButton18.TabStop = true;
-            this.radioButton18.Text = "Tamamen Katılıyorum";
+            this.radioButton18.Text = "5";
             this.radioButton18.UseVisualStyleBackColor = true;
             // 
             // radioButton19
@@ -410,10 +417,10 @@
             this.radioButton19.AutoSize = true;
             this.radioButton19.Location = new System.Drawing.Point(332, 60);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(91, 20);
+            this.radioButton19.Size = new System.Drawing.Size(35, 20);
             this.radioButton19.TabIndex = 2;
             this.radioButton19.TabStop = true;
-            this.radioButton19.Text = "Fikrim Yok";
+            this.radioButton19.Text = "3";
             this.radioButton19.UseVisualStyleBackColor = true;
             // 
             // radioButton20
@@ -421,10 +428,10 @@
             this.radioButton20.AutoSize = true;
             this.radioButton20.Location = new System.Drawing.Point(462, 60);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(93, 20);
+            this.radioButton20.Size = new System.Drawing.Size(35, 20);
             this.radioButton20.TabIndex = 3;
             this.radioButton20.TabStop = true;
-            this.radioButton20.Text = "Katılıyorum";
+            this.radioButton20.Text = "4";
             this.radioButton20.UseVisualStyleBackColor = true;
             // 
             // panel5
@@ -445,11 +452,12 @@
             this.radioButton21.AutoSize = true;
             this.radioButton21.Location = new System.Drawing.Point(17, 60);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(169, 20);
+            this.radioButton21.Size = new System.Drawing.Size(35, 20);
             this.radioButton21.TabIndex = 0;
             this.radioButton21.TabStop = true;
-            this.radioButton21.Text = "Tamamen Katılmıyorum";
+            this.radioButton21.Text = "1";
             this.radioButton21.UseVisualStyleBackColor = true;
+            this.radioButton21.CheckedChanged += new System.EventHandler(this.radioButton21_CheckedChanged);
             // 
             // label5
             // 
@@ -465,10 +473,10 @@
             this.radioButton22.AutoSize = true;
             this.radioButton22.Location = new System.Drawing.Point(204, 60);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(104, 20);
+            this.radioButton22.Size = new System.Drawing.Size(35, 20);
             this.radioButton22.TabIndex = 1;
             this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "Katılmıyorum";
+            this.radioButton22.Text = "2";
             this.radioButton22.UseVisualStyleBackColor = true;
             // 
             // radioButton23
@@ -476,10 +484,10 @@
             this.radioButton23.AutoSize = true;
             this.radioButton23.Location = new System.Drawing.Point(593, 60);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(158, 20);
+            this.radioButton23.Size = new System.Drawing.Size(35, 20);
             this.radioButton23.TabIndex = 4;
             this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "Tamamen Katılıyorum";
+            this.radioButton23.Text = "5";
             this.radioButton23.UseVisualStyleBackColor = true;
             // 
             // radioButton24
@@ -487,10 +495,10 @@
             this.radioButton24.AutoSize = true;
             this.radioButton24.Location = new System.Drawing.Point(332, 60);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(91, 20);
+            this.radioButton24.Size = new System.Drawing.Size(35, 20);
             this.radioButton24.TabIndex = 2;
             this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "Fikrim Yok";
+            this.radioButton24.Text = "3";
             this.radioButton24.UseVisualStyleBackColor = true;
             // 
             // radioButton25
@@ -498,10 +506,10 @@
             this.radioButton25.AutoSize = true;
             this.radioButton25.Location = new System.Drawing.Point(462, 60);
             this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(93, 20);
+            this.radioButton25.Size = new System.Drawing.Size(35, 20);
             this.radioButton25.TabIndex = 3;
             this.radioButton25.TabStop = true;
-            this.radioButton25.Text = "Katılıyorum";
+            this.radioButton25.Text = "4";
             this.radioButton25.UseVisualStyleBackColor = true;
             // 
             // panel6
@@ -522,10 +530,10 @@
             this.radioButton26.AutoSize = true;
             this.radioButton26.Location = new System.Drawing.Point(17, 60);
             this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(169, 20);
+            this.radioButton26.Size = new System.Drawing.Size(35, 20);
             this.radioButton26.TabIndex = 0;
             this.radioButton26.TabStop = true;
-            this.radioButton26.Text = "Tamamen Katılmıyorum";
+            this.radioButton26.Text = "1";
             this.radioButton26.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -542,10 +550,10 @@
             this.radioButton27.AutoSize = true;
             this.radioButton27.Location = new System.Drawing.Point(204, 60);
             this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(104, 20);
+            this.radioButton27.Size = new System.Drawing.Size(35, 20);
             this.radioButton27.TabIndex = 1;
             this.radioButton27.TabStop = true;
-            this.radioButton27.Text = "Katılmıyorum";
+            this.radioButton27.Text = "2";
             this.radioButton27.UseVisualStyleBackColor = true;
             // 
             // radioButton28
@@ -553,10 +561,10 @@
             this.radioButton28.AutoSize = true;
             this.radioButton28.Location = new System.Drawing.Point(593, 60);
             this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(158, 20);
+            this.radioButton28.Size = new System.Drawing.Size(35, 20);
             this.radioButton28.TabIndex = 4;
             this.radioButton28.TabStop = true;
-            this.radioButton28.Text = "Tamamen Katılıyorum";
+            this.radioButton28.Text = "5";
             this.radioButton28.UseVisualStyleBackColor = true;
             // 
             // radioButton29
@@ -564,10 +572,10 @@
             this.radioButton29.AutoSize = true;
             this.radioButton29.Location = new System.Drawing.Point(332, 60);
             this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(91, 20);
+            this.radioButton29.Size = new System.Drawing.Size(35, 20);
             this.radioButton29.TabIndex = 2;
             this.radioButton29.TabStop = true;
-            this.radioButton29.Text = "Fikrim Yok";
+            this.radioButton29.Text = "3";
             this.radioButton29.UseVisualStyleBackColor = true;
             // 
             // radioButton30
@@ -575,10 +583,10 @@
             this.radioButton30.AutoSize = true;
             this.radioButton30.Location = new System.Drawing.Point(462, 60);
             this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(93, 20);
+            this.radioButton30.Size = new System.Drawing.Size(35, 20);
             this.radioButton30.TabIndex = 3;
             this.radioButton30.TabStop = true;
-            this.radioButton30.Text = "Katılıyorum";
+            this.radioButton30.Text = "4";
             this.radioButton30.UseVisualStyleBackColor = true;
             // 
             // panel7
@@ -599,10 +607,10 @@
             this.radioButton31.AutoSize = true;
             this.radioButton31.Location = new System.Drawing.Point(17, 60);
             this.radioButton31.Name = "radioButton31";
-            this.radioButton31.Size = new System.Drawing.Size(169, 20);
+            this.radioButton31.Size = new System.Drawing.Size(35, 20);
             this.radioButton31.TabIndex = 0;
             this.radioButton31.TabStop = true;
-            this.radioButton31.Text = "Tamamen Katılmıyorum";
+            this.radioButton31.Text = "1";
             this.radioButton31.UseVisualStyleBackColor = true;
             // 
             // label7
@@ -619,10 +627,10 @@
             this.radioButton32.AutoSize = true;
             this.radioButton32.Location = new System.Drawing.Point(204, 60);
             this.radioButton32.Name = "radioButton32";
-            this.radioButton32.Size = new System.Drawing.Size(104, 20);
+            this.radioButton32.Size = new System.Drawing.Size(35, 20);
             this.radioButton32.TabIndex = 1;
             this.radioButton32.TabStop = true;
-            this.radioButton32.Text = "Katılmıyorum";
+            this.radioButton32.Text = "2";
             this.radioButton32.UseVisualStyleBackColor = true;
             // 
             // radioButton33
@@ -630,10 +638,10 @@
             this.radioButton33.AutoSize = true;
             this.radioButton33.Location = new System.Drawing.Point(593, 60);
             this.radioButton33.Name = "radioButton33";
-            this.radioButton33.Size = new System.Drawing.Size(158, 20);
+            this.radioButton33.Size = new System.Drawing.Size(35, 20);
             this.radioButton33.TabIndex = 4;
             this.radioButton33.TabStop = true;
-            this.radioButton33.Text = "Tamamen Katılıyorum";
+            this.radioButton33.Text = "5";
             this.radioButton33.UseVisualStyleBackColor = true;
             // 
             // radioButton34
@@ -641,10 +649,10 @@
             this.radioButton34.AutoSize = true;
             this.radioButton34.Location = new System.Drawing.Point(332, 60);
             this.radioButton34.Name = "radioButton34";
-            this.radioButton34.Size = new System.Drawing.Size(91, 20);
+            this.radioButton34.Size = new System.Drawing.Size(35, 20);
             this.radioButton34.TabIndex = 2;
             this.radioButton34.TabStop = true;
-            this.radioButton34.Text = "Fikrim Yok";
+            this.radioButton34.Text = "3";
             this.radioButton34.UseVisualStyleBackColor = true;
             // 
             // radioButton35
@@ -652,11 +660,12 @@
             this.radioButton35.AutoSize = true;
             this.radioButton35.Location = new System.Drawing.Point(462, 60);
             this.radioButton35.Name = "radioButton35";
-            this.radioButton35.Size = new System.Drawing.Size(93, 20);
+            this.radioButton35.Size = new System.Drawing.Size(35, 20);
             this.radioButton35.TabIndex = 3;
             this.radioButton35.TabStop = true;
-            this.radioButton35.Text = "Katılıyorum";
+            this.radioButton35.Text = "4";
             this.radioButton35.UseVisualStyleBackColor = true;
+            this.radioButton35.CheckedChanged += new System.EventHandler(this.radioButton35_CheckedChanged);
             // 
             // panel8
             // 
@@ -676,10 +685,10 @@
             this.radioButton36.AutoSize = true;
             this.radioButton36.Location = new System.Drawing.Point(17, 60);
             this.radioButton36.Name = "radioButton36";
-            this.radioButton36.Size = new System.Drawing.Size(169, 20);
+            this.radioButton36.Size = new System.Drawing.Size(35, 20);
             this.radioButton36.TabIndex = 0;
             this.radioButton36.TabStop = true;
-            this.radioButton36.Text = "Tamamen Katılmıyorum";
+            this.radioButton36.Text = "1";
             this.radioButton36.UseVisualStyleBackColor = true;
             // 
             // label8
@@ -696,10 +705,10 @@
             this.radioButton37.AutoSize = true;
             this.radioButton37.Location = new System.Drawing.Point(204, 60);
             this.radioButton37.Name = "radioButton37";
-            this.radioButton37.Size = new System.Drawing.Size(104, 20);
+            this.radioButton37.Size = new System.Drawing.Size(35, 20);
             this.radioButton37.TabIndex = 1;
             this.radioButton37.TabStop = true;
-            this.radioButton37.Text = "Katılmıyorum";
+            this.radioButton37.Text = "2";
             this.radioButton37.UseVisualStyleBackColor = true;
             // 
             // radioButton38
@@ -707,10 +716,10 @@
             this.radioButton38.AutoSize = true;
             this.radioButton38.Location = new System.Drawing.Point(593, 60);
             this.radioButton38.Name = "radioButton38";
-            this.radioButton38.Size = new System.Drawing.Size(158, 20);
+            this.radioButton38.Size = new System.Drawing.Size(35, 20);
             this.radioButton38.TabIndex = 4;
             this.radioButton38.TabStop = true;
-            this.radioButton38.Text = "Tamamen Katılıyorum";
+            this.radioButton38.Text = "5";
             this.radioButton38.UseVisualStyleBackColor = true;
             // 
             // radioButton39
@@ -718,10 +727,10 @@
             this.radioButton39.AutoSize = true;
             this.radioButton39.Location = new System.Drawing.Point(332, 60);
             this.radioButton39.Name = "radioButton39";
-            this.radioButton39.Size = new System.Drawing.Size(91, 20);
+            this.radioButton39.Size = new System.Drawing.Size(35, 20);
             this.radioButton39.TabIndex = 2;
             this.radioButton39.TabStop = true;
-            this.radioButton39.Text = "Fikrim Yok";
+            this.radioButton39.Text = "3";
             this.radioButton39.UseVisualStyleBackColor = true;
             // 
             // radioButton40
@@ -729,10 +738,10 @@
             this.radioButton40.AutoSize = true;
             this.radioButton40.Location = new System.Drawing.Point(462, 60);
             this.radioButton40.Name = "radioButton40";
-            this.radioButton40.Size = new System.Drawing.Size(93, 20);
+            this.radioButton40.Size = new System.Drawing.Size(35, 20);
             this.radioButton40.TabIndex = 3;
             this.radioButton40.TabStop = true;
-            this.radioButton40.Text = "Katılıyorum";
+            this.radioButton40.Text = "4";
             this.radioButton40.UseVisualStyleBackColor = true;
             // 
             // panel9
@@ -753,10 +762,10 @@
             this.radioButton41.AutoSize = true;
             this.radioButton41.Location = new System.Drawing.Point(17, 60);
             this.radioButton41.Name = "radioButton41";
-            this.radioButton41.Size = new System.Drawing.Size(169, 20);
+            this.radioButton41.Size = new System.Drawing.Size(35, 20);
             this.radioButton41.TabIndex = 0;
             this.radioButton41.TabStop = true;
-            this.radioButton41.Text = "Tamamen Katılmıyorum";
+            this.radioButton41.Text = "1";
             this.radioButton41.UseVisualStyleBackColor = true;
             // 
             // label9
@@ -773,21 +782,22 @@
             this.radioButton42.AutoSize = true;
             this.radioButton42.Location = new System.Drawing.Point(204, 60);
             this.radioButton42.Name = "radioButton42";
-            this.radioButton42.Size = new System.Drawing.Size(104, 20);
+            this.radioButton42.Size = new System.Drawing.Size(35, 20);
             this.radioButton42.TabIndex = 1;
             this.radioButton42.TabStop = true;
-            this.radioButton42.Text = "Katılmıyorum";
+            this.radioButton42.Text = "2";
             this.radioButton42.UseVisualStyleBackColor = true;
+            this.radioButton42.CheckedChanged += new System.EventHandler(this.radioButton42_CheckedChanged);
             // 
             // radioButton43
             // 
             this.radioButton43.AutoSize = true;
             this.radioButton43.Location = new System.Drawing.Point(593, 60);
             this.radioButton43.Name = "radioButton43";
-            this.radioButton43.Size = new System.Drawing.Size(158, 20);
+            this.radioButton43.Size = new System.Drawing.Size(35, 20);
             this.radioButton43.TabIndex = 4;
             this.radioButton43.TabStop = true;
-            this.radioButton43.Text = "Tamamen Katılıyorum";
+            this.radioButton43.Text = "5";
             this.radioButton43.UseVisualStyleBackColor = true;
             // 
             // radioButton44
@@ -795,10 +805,10 @@
             this.radioButton44.AutoSize = true;
             this.radioButton44.Location = new System.Drawing.Point(332, 60);
             this.radioButton44.Name = "radioButton44";
-            this.radioButton44.Size = new System.Drawing.Size(91, 20);
+            this.radioButton44.Size = new System.Drawing.Size(35, 20);
             this.radioButton44.TabIndex = 2;
             this.radioButton44.TabStop = true;
-            this.radioButton44.Text = "Fikrim Yok";
+            this.radioButton44.Text = "3";
             this.radioButton44.UseVisualStyleBackColor = true;
             // 
             // radioButton45
@@ -806,10 +816,10 @@
             this.radioButton45.AutoSize = true;
             this.radioButton45.Location = new System.Drawing.Point(462, 60);
             this.radioButton45.Name = "radioButton45";
-            this.radioButton45.Size = new System.Drawing.Size(93, 20);
+            this.radioButton45.Size = new System.Drawing.Size(35, 20);
             this.radioButton45.TabIndex = 3;
             this.radioButton45.TabStop = true;
-            this.radioButton45.Text = "Katılıyorum";
+            this.radioButton45.Text = "4";
             this.radioButton45.UseVisualStyleBackColor = true;
             // 
             // panel10
@@ -830,10 +840,10 @@
             this.radioButton46.AutoSize = true;
             this.radioButton46.Location = new System.Drawing.Point(17, 60);
             this.radioButton46.Name = "radioButton46";
-            this.radioButton46.Size = new System.Drawing.Size(169, 20);
+            this.radioButton46.Size = new System.Drawing.Size(35, 20);
             this.radioButton46.TabIndex = 0;
             this.radioButton46.TabStop = true;
-            this.radioButton46.Text = "Tamamen Katılmıyorum";
+            this.radioButton46.Text = "1";
             this.radioButton46.UseVisualStyleBackColor = true;
             // 
             // label10
@@ -850,10 +860,10 @@
             this.radioButton47.AutoSize = true;
             this.radioButton47.Location = new System.Drawing.Point(204, 60);
             this.radioButton47.Name = "radioButton47";
-            this.radioButton47.Size = new System.Drawing.Size(104, 20);
+            this.radioButton47.Size = new System.Drawing.Size(35, 20);
             this.radioButton47.TabIndex = 1;
             this.radioButton47.TabStop = true;
-            this.radioButton47.Text = "Katılmıyorum";
+            this.radioButton47.Text = "2";
             this.radioButton47.UseVisualStyleBackColor = true;
             // 
             // radioButton48
@@ -861,10 +871,10 @@
             this.radioButton48.AutoSize = true;
             this.radioButton48.Location = new System.Drawing.Point(593, 60);
             this.radioButton48.Name = "radioButton48";
-            this.radioButton48.Size = new System.Drawing.Size(158, 20);
+            this.radioButton48.Size = new System.Drawing.Size(35, 20);
             this.radioButton48.TabIndex = 4;
             this.radioButton48.TabStop = true;
-            this.radioButton48.Text = "Tamamen Katılıyorum";
+            this.radioButton48.Text = "5";
             this.radioButton48.UseVisualStyleBackColor = true;
             // 
             // radioButton49
@@ -872,10 +882,10 @@
             this.radioButton49.AutoSize = true;
             this.radioButton49.Location = new System.Drawing.Point(332, 60);
             this.radioButton49.Name = "radioButton49";
-            this.radioButton49.Size = new System.Drawing.Size(91, 20);
+            this.radioButton49.Size = new System.Drawing.Size(35, 20);
             this.radioButton49.TabIndex = 2;
             this.radioButton49.TabStop = true;
-            this.radioButton49.Text = "Fikrim Yok";
+            this.radioButton49.Text = "3";
             this.radioButton49.UseVisualStyleBackColor = true;
             // 
             // radioButton50
@@ -883,10 +893,10 @@
             this.radioButton50.AutoSize = true;
             this.radioButton50.Location = new System.Drawing.Point(462, 60);
             this.radioButton50.Name = "radioButton50";
-            this.radioButton50.Size = new System.Drawing.Size(93, 20);
+            this.radioButton50.Size = new System.Drawing.Size(35, 20);
             this.radioButton50.TabIndex = 3;
             this.radioButton50.TabStop = true;
-            this.radioButton50.Text = "Katılıyorum";
+            this.radioButton50.Text = "4";
             this.radioButton50.UseVisualStyleBackColor = true;
             // 
             // button1
@@ -952,12 +962,62 @@
             this.label11.TabIndex = 6;
             this.label11.Text = "Yaşınız ";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(353, 918);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(171, 16);
+            this.label12.TabIndex = 15;
+            this.label12.Text = "1  -  Tamamen Katılmıyorum";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(353, 934);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(106, 16);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "2  -  Katılmıyorum";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(353, 966);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(95, 16);
+            this.label14.TabIndex = 18;
+            this.label14.Text = "4  -  Katılıyorum";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(353, 950);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(93, 16);
+            this.label15.TabIndex = 17;
+            this.label15.Text = "3  -  Fikrim Yok";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(353, 982);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(160, 16);
+            this.label16.TabIndex = 19;
+            this.label16.Text = "5  -  Tamamen Katılıyorum";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(939, 1055);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.panel12);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel10);
@@ -972,7 +1032,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Anket Uygulaması";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -996,6 +1055,7 @@
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1077,6 +1137,11 @@
         private System.Windows.Forms.RadioButton radioButton53;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
     }
 }
 
