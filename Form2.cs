@@ -15,6 +15,12 @@ namespace anket_uygulamasi
         public Form2(string seciliRadioButton)
         {
             InitializeComponent();
+            label1.Text = seciliRadioButton;
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
