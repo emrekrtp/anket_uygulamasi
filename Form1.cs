@@ -96,7 +96,7 @@ namespace anket_uygulamasi
                     // Her panel için doğrulama yapın
                     if (!enAzBirSecili)
                     {
-                        MessageBox.Show($"Lütfen panel {i} için bir seçenek seçin.");
+                        MessageBox.Show($"Lütfen {i}. soru için bir seçenek seçin.");
                         return 0; // Herhangi bir panelde seçili bir RadioButton yoksa toplam puanı sıfırlayın
                     }
                 }
@@ -137,6 +137,11 @@ namespace anket_uygulamasi
         }
 
         private void radioButton13_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
         {
 
         }
