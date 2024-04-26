@@ -189,6 +189,7 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.radioButton2);
@@ -203,6 +204,7 @@
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.radioButton6);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.radioButton7);
@@ -280,6 +282,7 @@
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.Controls.Add(this.radioButton11);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.radioButton12);
@@ -358,6 +361,7 @@
             // 
             // panel4
             // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Controls.Add(this.radioButton16);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.radioButton17);
@@ -436,6 +440,7 @@
             // 
             // panel5
             // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel5.Controls.Add(this.radioButton21);
             this.panel5.Controls.Add(this.label5);
             this.panel5.Controls.Add(this.radioButton22);
@@ -514,6 +519,7 @@
             // 
             // panel6
             // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel6.Controls.Add(this.radioButton26);
             this.panel6.Controls.Add(this.label6);
             this.panel6.Controls.Add(this.radioButton27);
@@ -591,6 +597,7 @@
             // 
             // panel7
             // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel7.Controls.Add(this.radioButton31);
             this.panel7.Controls.Add(this.label7);
             this.panel7.Controls.Add(this.radioButton32);
@@ -669,6 +676,7 @@
             // 
             // panel8
             // 
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel8.Controls.Add(this.radioButton36);
             this.panel8.Controls.Add(this.label8);
             this.panel8.Controls.Add(this.radioButton37);
@@ -746,6 +754,7 @@
             // 
             // panel9
             // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel9.Controls.Add(this.radioButton41);
             this.panel9.Controls.Add(this.label9);
             this.panel9.Controls.Add(this.radioButton42);
@@ -824,6 +833,7 @@
             // 
             // panel10
             // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel10.Controls.Add(this.radioButton46);
             this.panel10.Controls.Add(this.label10);
             this.panel10.Controls.Add(this.radioButton47);
@@ -944,6 +954,7 @@
             // 
             // panel12
             // 
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel12.Controls.Add(this.label11);
             this.panel12.Controls.Add(this.radioButton51);
             this.panel12.Controls.Add(this.radioButton52);
